@@ -92,9 +92,9 @@
 
         layer_math {
             bindings = <
-                        &kp N1      &kp N2      &kp N3      &trans              &kp EQUAL   &kp LT      &kp UNDER   &kp GT      
+                        &kp N7      &kp N8      &kp N9      &trans              &kp EQUAL   &kp LT      &kp UNDER   &kp GT      
 &kp PLUS    &kp N0      &mt LCTRL N4 &mt LALT N5 &mt LSHFT N6 &kp DOT           &kp LS(INT1) &mt RSHFT COLON &mt RALT MINUS &mt RCTRL DQT &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp SQT     &kp SEMI    
+            &kp DLLR    &kp N1      &kp N2      &kp N3                                      &kp EXCL    &kp QMARK   &kp SQT     &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
