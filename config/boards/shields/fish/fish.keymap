@@ -73,13 +73,18 @@
         };
 
         combo_mb4 {
-            key-positions = <10 11>;
+            key-positions = <11 12>;
             bindings = <&mkp MB4>;
         };
 
         combo_mb5 {
-            key-positions = <16 17>;
+            key-positions = <15 16>;
             bindings = <&mkp MB5>;
+        };
+
+        combo_la_f4 {
+            key-positions = <6 11 16>;
+            bindings = <&kp LA(F4)>;
         };
     };
     
@@ -105,7 +110,7 @@
                         &kp N9      &kp N8      &kp N7      &trans              &kp EQUAL   &kp LT      &kp UNDER   &kp GT      
 &kp PLUS    &kp N0      &mt LSHFT N6 &mt LALT N5 &mt LCTRL N4 &kp DOT           &kp LS(INT1) &mt RSHFT COLON &mt RALT MINUS &mt RCTRL DQT &kp FSLH &kp PRCNT 
             &kp DLLR    &kp N3      &kp N2      &kp N1                                      &kp EXCL    &kp QMARK   &kp SQT     &kp SEMI    
-                                                &none       &trans              &trans      &lt 6 SPACE 
+                                                &none       &trans              &lt 6 SPACE &kp DEL     
             >;
         };
 
@@ -114,34 +119,7 @@
                         &kp RBKT    &kp AT      &kp NUHS    &kp CARET           &kp C_VOL_UP &kp ESC    &kp UP      &kp CAPS    
 &kp LBKT    &kp HASH    &mt LCTRL STAR &mt LALT AMPS &mt LSHFT LPAR &kp LS(INT3) &kp C_VOL_DN &kp LEFT  &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp LS(LG(N3)) 
             &kp INT1    &kp RBRC    &kp LBRC    &kp TILDE2                                  &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_BRI_DN 
-                                                &lt 6 BSPC  &trans              &trans      &none       
-            >;
-        };
-
-        layer_win_base {
-            bindings = <
-                        &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
-            &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &mt LCTRL TAB &lt 5 SPACE       &lt 4 RET   &mt RCTRL BSPC 
-            >;
-        };
-
-        layer_win_math {
-            bindings = <
-                        &kp N1      &kp N2      &kp N3      &trans              &kp EQUAL   &kp LT      &kp UNDER   &kp GT      
-&kp PLUS    &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp LS(INT1) &mt RSHFT COLON &mt RALT MINUS &mt RGUI DQT &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp SQT     &kp SEMI    
-                                                &none       &trans              &trans      &lt 6 SPACE 
-            >;
-        };
-
-        layer_win_navi {
-            bindings = <
-                        &kp RBKT    &kp AT      &kp NUHS    &kp CARET           &kp C_VOL_UP &kp ESC    &kp UP      &kp CAPS    
-&kp LBKT    &kp HASH    &mt LGUI STAR &mt LALT AMPS &mt LSHFT LPAR &kp LS(INT3) &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp LS(LG(N3)) 
-            &kp INT1    &kp RBRC    &kp LBRC    &kp TILDE2                                  &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_BRI_DN 
-                                                &lt 6 BSPC  &trans              &trans      &none       
+                                                &trans      &lt 6 BSPC          &trans      &none       
             >;
         };
 
